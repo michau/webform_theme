@@ -1,0 +1,11 @@
+name = Webform Specific Theme, based on civicrm_theme
+description =  Define alternate theme for Webforms, cross-site. This is for specific CiviCRM related usage scheme, therefore civicrm dependency.
+core = 7.x
+version = 4.2.16
+package = CiviCRM
+
+dependencies[] = webform
+dependencies[] = civicrm
+
+files[] = webform_theme.module
+files[] = webform_theme.install
